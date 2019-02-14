@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+//AVELISA
+
 void menuadmin();
 int main(){
     char username[15];
@@ -10,7 +12,7 @@ int main(){
     printf("Enter your password = ");
     scanf("%s",&password);
 
-    if(strcmp(username,"ILHAM")==0){
+    if(strcmp(username,"AVELISA")==0){
         if(strcmp(password,"243")==0){
             printf("\nWelcome Login Success!");
             system("cls");
