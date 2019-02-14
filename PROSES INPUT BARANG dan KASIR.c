@@ -71,25 +71,3 @@ void input_data(){
    } while (a<jumlah);
    getch();
 }
-//YOGAS EKA PUTRA 1301164670
-void kasir(){
-    struct barang arrBarang[20];
-      int total,kode,jml;
-   do{
-     printf("\nPesanan : ");
-     printf("KODE BARANG = ");
-     scanf("%d",&kode);
-     printf("JUMLAH = ");
-     scanf("%d",&jml);
-
-     total = total + ((arrBarang[kode].hargajual)*jml);
-   }while(kode != 0 && jml !=0);
-   system("cls");
-   printf("=======================================\n");
-   printf("\nTOTAL HARGA: %d\n\n", total);
-   printf("=======================================\n");
-   printf("\n\n");
-   system("pause");
- }
-
-
